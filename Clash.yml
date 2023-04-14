@@ -12,4 +12,3 @@ dns:
 proxies:
   - {name: 🇫🇷 vmess, server: baidu.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 1ede7a2c-9091-4e83-db57-294f67712e01, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cache, headers: {Host: baidu.com}}}
   - {name: 🇯🇵 ss, server: 2a11:a202:2::1243, port: 42485, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: qxrV2X2Dy6OWAjPdv9tcckd0kOeFbcNZvSdVh0mNQRPp, tfo: false}
-  - {name: 🇯🇵 vless, server: 191.22.248.120, port: 8443, reality-opts: {public-key: Z3ZGnaOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4}, client-fingerprint: safari, type: vless, uuid: 2409c194-78f1-4c48-9ade-154273fb63b1, tls: true, tfo: false, servername: www.iq.com, flow: xtls-rprx-vision, skip-cert-verify: false}
