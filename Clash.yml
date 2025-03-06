@@ -10,5 +10,4 @@ dns:
     - 119.29.29.29
     - 223.5.5.5
 proxies:
-  - {name: 🇫🇷 vmess, server: baidu.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 1ede7a2c-9091-4e83-db57-294f67712e01, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cache, headers: {Host: baidu.com}}}
-  - {name: 🇯🇵 ss, server: 2a11:a202:2::1243, port: 42485, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: qxrV2X2Dy6OWAjPdv9tcckd0kOeFbcNZvSdVh0mNQRPp, tfo: false}
+  - {name: 🇫🇷 CF-FR, server: cf-fr.sodayo.ml, port: 80, type: vmess, uuid: 69c7a7c4-c444-4e44-c8bc-ba7ba7a7fbae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cache, headers: {Host: cf-fr.sodayo.ml}}, udp: true}
